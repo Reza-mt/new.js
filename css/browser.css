@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h4 {
+    text-align: center;
+    color: rgba(38, 7, 54, 0.76);
+    border-radius: 1000px;
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+/*remove key*/
+.remove-note,
+.remove-note:hover {
+    float: left;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/*notepad*/
+#label {
+    text-align: right;
+    padding: 20px;
+}
+
+#form {
+    padding-right: 20px;
+}
+
+h2,
+#not-list {
+    text-align: center;
+}
+
+.head {
+    background-image: url(PC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+body {
+    background-color: #060b43;
+}
+
+.main {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 72px;
+    background: #862680;
+    box-shadow: inset 10px 10px 14px #57195b,
+        inset -10px -10px 14px #862680;
+        color:azure;
+}
+#submit{
+    background-color:#e97536;
+    color: #fff;
+}
+
+
